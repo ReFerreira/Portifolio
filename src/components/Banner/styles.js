@@ -95,6 +95,7 @@ li {
   }
 
   a {
+    color: #eee;
     text-decoration:none;
   }
 }
