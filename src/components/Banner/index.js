@@ -30,7 +30,7 @@ export default function Banner() {
           <Perfil>
             <img className="avatar" src={foto} alt="Reinaldo Ferreira"/>
               <h1>Reinaldo Ferreira</h1>
-              <span>Software Engineer</span>
+              <span>Full-Stack Developer</span>
               <p>ReactJs | NodeJs |</p>
               <p>React Native</p>
               <List>
