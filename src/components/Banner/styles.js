@@ -95,8 +95,6 @@ li {
   }
 
   a {
-    color: #191920;
-    background-color: #eee;
     text-decoration:none;
   }
 }
