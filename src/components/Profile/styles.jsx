@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const Content = styled.div`
   width: 90%;
@@ -9,14 +8,11 @@ export const Content = styled.div`
   margin-right: 2rem;
 
   aside.profile {
-   
-    background: #191919;
+    background: ${({ theme }) => theme.colors.primary};
     width: 260px;
     align-items: center;
     border-radius: 20px;
   }
-
-
 `;
 
 export const Perfil = styled.div`
@@ -34,18 +30,18 @@ export const Perfil = styled.div`
 
   h1 {
     font-size: 2.1rem;
-    color: #eee;
+    color: ${({ theme }) => theme.colors.text.primary};
   }
 
   span {
-      font-size: 1.6rem;
-      color: #eee;
-      margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: ${({ theme }) => theme.colors.text.primary};
+    margin-bottom: 10px;
   }
 
   p {
     font-size: 1.4rem;
-    color: #fff;
+    color: ${({ theme }) => theme.colors.text.primary};
   }
 `;
 
@@ -55,18 +51,19 @@ export const List = styled.ul`
 
   li {
     font-size: 1.4rem;
-    color: #eee;
+    color: ${({ theme }) => theme.colors.text.primary};
     display: flex;
     align-items: center;
     margin: 5px;
 
     svg {
-      margin-right: 5px;
+      background: ${({ theme }) => theme.colors.primary};
+      color: ${({ theme }) => theme.colors.text.primary};
     }
 
     a {
-      color: #eee;
-      text-decoration:none;
+      color: ${({ theme }) => theme.colors.text.primary};
+      text-decoration: none;
     }
   }
 `;
@@ -75,8 +72,9 @@ export const Skills = styled.ul`
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+
   strong {
+    color: ${({ theme }) => theme.colors.text.primary};
     display: flex;
     align-items: center;
     font-weight: normal;
@@ -87,7 +85,6 @@ export const Skills = styled.ul`
     svg {
       margin-right: 10px;
     }
-
   }
 
   ul {
@@ -103,14 +100,16 @@ export const Skills = styled.ul`
       svg {
         width: 35px;
         height: 35px;
-        background: #D0D5D9;
+        background: ${({ theme }) => theme.colors.secundary};
         border-radius: 50%;
         flex-shrink: 0;
-        color: #191920;
+        color: ${({ theme }) => theme.colors.text.secundary};
         margin-right: 10px;
-
-
       }
     }
   }
+`;
+
+export const Text = styled.span`
+  color: ${({ theme }) => theme.colors.secundary};
 `;

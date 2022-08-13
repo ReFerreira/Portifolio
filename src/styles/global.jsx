@@ -15,12 +15,11 @@ export default createGlobalStyle`
 
   body {
     height: 100vh;
-    /* background: ${(props) => props.theme.color.background}; */
-    background: #000000;
+    background: ${({ theme }) => theme.colors.background};
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    color: #FFF;
+    color: ${({ theme }) => theme.colors.text.primary};
     font-size: 1.6rem;
   }
 

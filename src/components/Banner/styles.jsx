@@ -7,7 +7,7 @@ export const Container = styled.div`
   
   div.banner {
     height: 260px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.secundary};
 
     display: flex;
     align-items: center;
