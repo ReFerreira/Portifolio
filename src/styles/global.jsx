@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
@@ -16,6 +15,7 @@ export default createGlobalStyle`
 
   body {
     height: 100vh;
+    /* background: ${(props) => props.theme.color.background}; */
     background: #000000;
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility !important;
