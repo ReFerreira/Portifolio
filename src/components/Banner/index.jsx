@@ -1,9 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
-import foto from "../../assets/images/profile.jpg";
 
-import { Container, Content, Perfil } from "./styles";
+import { Container, Content } from "./styles";
 import Logo from "../../assets/images/banner.jpg";
 import ContactList from "../ContactList";
 import Skills from "../Skills";
