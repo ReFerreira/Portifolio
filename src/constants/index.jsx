@@ -9,15 +9,6 @@ import {
   FaUserGraduate,
 } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
-import {
-  DiHtml5,
-  DiReact,
-  DiCss3,
-  DiNodejsSmall,
-  DiPython,
-  DiMysql,
-  DiPostgresql,
-} from "react-icons/di";
 
 export const Contact = [
   {
@@ -56,12 +47,24 @@ export const Contact = [
   },
 ];
 
+// export const SkillsConstant = [
+//   <DiReact />,
+//   <DiHtml5 />,
+//   <DiCss3 />,
+//   <DiNodejsSmall />,
+//   <DiPython />,
+//   <DiMysql />,
+//   <DiPostgresql />,
+// ];
+
 export const SkillsConstant = [
-  <DiReact />,
-  <DiHtml5 />,
-  <DiCss3 />,
-  <DiNodejsSmall />,
-  <DiPython />,
-  <DiMysql />,
-  <DiPostgresql />,
+  "React",
+  "Javascript",
+  "TypeScript",
+  "Redux",
+  "Context",
+  "Jest",
+  "GitLab Ci/CD",
+  "SASS",
+  "Css in Js",
 ];
