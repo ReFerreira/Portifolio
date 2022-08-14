@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #000000;
+  background: ${({ theme }) => theme.colors.background};
   margin-left: 1rem;
   width: 100%;
 
@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   max-width: 100%;
-  background: #191919;
+  background: ${({ theme }) => theme.colors.primary};
   border-radius: 4px;
   margin-top: 10px;
 
@@ -23,12 +23,12 @@ export const Content = styled.div`
 
     strong {
       font-size: 1.6rem;
-      color: #e6e6e6;
+      color: ${({ theme }) => theme.colors.text.primary};
     }
 
     span {
       font-size: 1.4rem;
-      color: #e6e6e6;
+      color: ${({ theme }) => theme.colors.text.primary};
     }
     
     img {

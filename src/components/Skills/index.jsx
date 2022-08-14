@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaListUl } from 'react-icons/fa';
 import { SkillsConstant } from '../../constants';
-import { Skills } from './styles';
+import { Skills as SkillsContainers } from './styles';
 
-const Skils = () => {
+const Skills = () => {
   return (
-    <Skills>
+    <SkillsContainers>
     <strong>
       <FaListUl />
       Skills
@@ -15,8 +15,8 @@ const Skils = () => {
         <li key={Math.random()}>{skils}</li>
       ))}
     </ul>
-  </Skills>
+  </SkillsContainers>
   );
 }
 
-export default Skils;
+export default Skills;

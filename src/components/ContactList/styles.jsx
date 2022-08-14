@@ -9,7 +9,8 @@ export const List = styled.ul`
     color: ${({ theme }) => theme.colors.text.primary};
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 10px 5px;
+    
 
     svg {
       background: ${({ theme }) => theme.colors.primary};
@@ -24,5 +25,6 @@ export const List = styled.ul`
 `;
 
 export const Text = styled.span`
+margin-left: 1rem;
   color: ${({ theme }) => theme.colors.secundary};
 `;

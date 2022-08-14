@@ -1,15 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
   margin-left: 1rem;
-  background: #000000;
- 
+  background: ${({ theme }) => theme.colors.background};
 `;
 
 export const Content = styled.div`
   max-width: 100%;
-  background: #191919;
+  background: ${({ theme }) => theme.colors.primary};
   border-radius: 4px;
   margin-top: 10px;
 
@@ -22,9 +21,9 @@ export const Content = styled.div`
       margin-bottom: 10px;
 
       div.conteudo {
-      margin: 10px 10px;
-      display: flex;
-      align-items: center;
+        margin: 10px 10px;
+        display: flex;
+        align-items: center;
 
         img {
           max-width: 35%;
@@ -35,7 +34,7 @@ export const Content = styled.div`
           display: grid;
           strong {
             font-size: 1.4rem;
-            color: #e6e6e6
+            color: ${({ theme }) => theme.colors.text.primary};
           }
 
           span {

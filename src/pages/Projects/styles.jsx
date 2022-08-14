@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {darken} from 'polished';
 
 export const Container = styled.div`
-  background: #000000;
+  background: ${({ theme }) => theme.colors.background};
   margin-left: 1rem;
   width: 100%;
 `;
@@ -17,13 +17,13 @@ export const ProjectsList = styled.ul`
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   list-style: none;
-  color: #333;
-  background: #000000;
+  color: #191919;
+  background: ${({ theme }) => theme.colors.background};
 
   li {
     display: grid;
     flex-direction: column;
-    background: #eee;
+    background: ${({ theme }) => theme.colors.default};
     border-radius: 4px;
     padding: 20px;
 
