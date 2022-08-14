@@ -1,14 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Skills = styled.ul`
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  height: 300px;
 
   strong {
     color: ${({ theme }) => theme.colors.text.primary};
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: normal;
     font-size: 1.6rem;
     padding-top: 10px;
@@ -20,24 +22,13 @@ export const Skills = styled.ul`
   }
 
   ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    list-style: square;
     flex-wrap: wrap;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 0.8rem;
     li {
-      margin: 0 5px 10px 0;
-
-      svg {
-        width: 35px;
-        height: 35px;
-        background: ${({ theme }) => theme.colors.secundary};
-        border-radius: 50%;
-        flex-shrink: 0;
-        color: ${({ theme }) => theme.colors.text.secundary};
-        margin-right: 10px;
-      }
     }
   }
 `;
