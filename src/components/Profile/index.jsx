@@ -4,7 +4,7 @@ import foto from "../../assets/images/profile.jpg";
 
 import { Perfil } from "./styles";
 
-export default function Profile({ toggleTheme }) {
+export default function Profile() {
   return (
     <Perfil>
       <img className="avatar" src={foto} alt="Reinaldo Ferreira" />
