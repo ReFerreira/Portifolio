@@ -6,11 +6,11 @@ export const Perfil = styled.div`
   justify-content: center;
   flex-direction: column;
   img {
-    margin: 10px 30px;
-    width: 200px;
-    height: 200px;
+    margin: 0.8rem 1.8rem;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 0.2rem solid #fff;
   }
 
   h1 {
@@ -29,6 +29,3 @@ export const Perfil = styled.div`
     color: ${({ theme }) => theme.colors.text.primary};
   }
 `;
-
-
-
