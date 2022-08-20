@@ -36,15 +36,16 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
-  width: 90%;
+  width: 100vw;
   display: flex;
   align-items: center;
+  flex-direction: column;
 
   aside {
-    max-width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
   }
   
 `;

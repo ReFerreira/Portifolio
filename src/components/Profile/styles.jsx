@@ -28,4 +28,5 @@ export const Perfil = styled.div`
     font-size: 1.4rem;
     color: ${({ theme }) => theme.colors.text.primary};
   }
+  
 `;

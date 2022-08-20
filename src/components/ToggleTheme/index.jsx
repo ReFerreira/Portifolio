@@ -9,7 +9,7 @@ const ToggleTheme = ({ toggleTheme }) => {
   const { colors, title } = useContext(ThemeContext);
   return (
     <ToggleContainer>
-      <BsSun size={25} />
+      <BsSun size={"2rem"} />
       <Switch
         checkedIcon={false}
         uncheckedIcon={false}
@@ -18,10 +18,10 @@ const ToggleTheme = ({ toggleTheme }) => {
         onColor={colors.secundary}
         height={10}
         width={40}
-        handleDiameter={20}
+        handleDiameter={15}
         offColor={colors.secundary}
       />
-      <BsMoon size={25} />
+      <BsMoon size={'2rem'} />
     </ToggleContainer>
   );
 };
