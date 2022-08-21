@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "menu": {
+      "about": "Sobre",
+      "projects": "Projetos",
+      "education": "Educação",
+      "experience": "Experiência"
+    },
+    "pages": {
+      "main": {
+        "part-1": "Eu sou um desenvolvedor fullstack. Crio interfaces em HTML e CSS e escrevo códigos em Javascript, tanto no lado do client como do servidor",
+        "part-2": "Você quer saber como eu posso ajudar no seu time ou projeto? Dê uma olhada em meu portifolio e no meu CV",
+        "resume": "CV",
+        "about": {
+          "part-1": "O Fato da tecnologia poder mudar a vida das pessoas fez eu me tornar um entusiasta em T.I. Eu não sei o que a tecnologia vai nos prover no futuro, mas estou certo que iremos depender dela cada dia mais e eu quero fazer parte disso.",
+          "part-2": "No final de 2017, enquanto eu estava fazendo um intercâmbio em Dublin e conhecendo varias empresas e profissionais de TI. Eu encontrei uma area que fez meus olhos brilharem. Foi quando eu tomei a decisão de mergulhar de uma vez na area de desenvolvimento de software e não somente trabalhar em coisas que eu não gostava.",
+          "part-3": "Desde então são mais de 4 anos de experiencia, desenvolvendo sistemas e aplicações web profissionalmente e também varias horas de estudo e pesquisas"
+        }
+      },
+      "experience": {
+        "professional-title": "Desenvolvedor Web",
+        "period-in-company": "Out 2018 - Presente 1 ano 7 meses",
+        "responsability": "Responsável por codificar e encontrar soluções em T.I de acordo com a necessidade da empresa",
+        "achievements": {
+          "part-1": "Desenvolver solução em tarefas-chave",
+          "part-2": "reduzindo o tempo de execução e maior confiabilidade",
+          "part-3": "Atingido 120% da meta nos 2 primeiros trimestres",
+          "part-4": "Premiado como uma das melhores ideias implementadas em 2019"
+        }
+      }
+    }
+  }
+}

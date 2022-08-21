@@ -15,7 +15,6 @@ export const Content = styled.div`
 export const Header = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
     
   aside {
     max-width: 100%;

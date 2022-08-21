@@ -4,10 +4,10 @@ import Profile from "../components/Profile";
 import SelectLanguage from "../components/SelectLanguage";
 import Skills from "../components/Skills";
 import ToggleTheme from "../components/ToggleTheme";
-
 import { Content, PrefenciesContainer } from "./styles";
 
 const ProfileModule = ({ toggleTheme }) => {
+  
   return (
     <div
       className="container"
